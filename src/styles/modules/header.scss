@@ -1,0 +1,8 @@
+.header {
+    .title {
+        letter-spacing: 5px;
+        @media (width <= 600px) {
+            color: greenyellow;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+ /* Fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+	font-display: auto;
+}
+
+* {
+    font-family: 'Lato', cursive;
+	font-weight: normal;
+}

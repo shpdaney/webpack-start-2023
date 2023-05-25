@@ -1,0 +1,38 @@
+{
+  "name": "webpack-2023",
+  "version": "1.0.0",
+  "description": "webpack",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.4",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.3.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.0",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.84.0",
+    "webpack-bundle-analyzer": "^4.8.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

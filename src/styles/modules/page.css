@@ -1,0 +1,12 @@
+body {
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--basic-black);
+}
+.title {
+    font-size: 32px;
+}
+.text {
+    font-style: normal;
+    font-weight: 400;
+}
