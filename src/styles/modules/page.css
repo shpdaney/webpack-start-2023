@@ -2,6 +2,7 @@ body {
     font-size: 14px;
     line-height: 1.2;
     color: var(--basic-black);
+    background-color: #4f4f4f;
 }
 .title {
     font-size: 32px;

@@ -7,10 +7,10 @@
 
 /* Modules */
 
-/* @import 'blocks/page.css'; */
+@import 'modules/page.css';
 @import 'modules/container.css';
 @import 'modules/header.scss';
-/* @import 'blocks/content.css'; */
+/* @import 'modules/content.css'; */
 
 
 
